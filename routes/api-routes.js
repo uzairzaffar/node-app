@@ -1,5 +1,6 @@
 var router = require('express').Router();
 var controller = require('../controller/controller.js');
+
 router.get('/', function(req, res){
     res.json({
         status: 'API is Working',
